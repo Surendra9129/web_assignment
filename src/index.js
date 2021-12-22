@@ -7,4 +7,4 @@ document.getElementById('root').appendChild(h1);
 
 const pic=document.createElement('img');
 pic.src="image";
-document.getElementById('root').appendChild(pic)
+document.getElementById('pics').appendChild(pic)

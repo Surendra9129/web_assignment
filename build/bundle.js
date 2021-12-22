@@ -7,15 +7,16 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/file.js":
 /*!*********************!*\
   !*** ./src/file.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("throw new Error(\"Module parse failed: Unexpected keyword 'export' (2:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| const image=\\\"https://v4.webpack.js.org/bf176a25b4f8227fea804854c98dc5e2.png\\\",\\n> export {image};\");\n\n//# sourceURL=webpack://web_assignment/./src/file.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"image\": () => (/* binding */ image)\n/* harmony export */ });\nconst image=\"https://v4.webpack.js.org/bf176a25b4f8227fea804854c98dc5e2.png\"\r\n\r\n// function image() {\r\n//     return im;\r\n// }\r\n\n\n//# sourceURL=webpack://web_assignment/./src/file.js?");
 
 /***/ }),
 
@@ -25,8 +26,7 @@ eval("throw new Error(\"Module parse failed: Unexpected keyword 'export' (2:0)\\
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _file__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./file */ \"./src/file.js\");\n/* harmony import */ var _file__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_file__WEBPACK_IMPORTED_MODULE_0__);\n__webpack_require__.e(/*! import() */ \"src_index_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./index.css */ \"./src/index.css\"))\r\n;\r\nconst h1=document.createElement('h1');\r\nh1.innerText=\"hello\",\r\nh1.classList.add('redColor');\r\ndocument.getElementById('root').appendChild(h1);\r\n\r\nconst pic=document.createElement('img');\r\npic.src=\"image\";\r\ndocument.getElementById('root').appendChild(pic)\n\n//# sourceURL=webpack://web_assignment/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _file__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./file */ \"./src/file.js\");\n__webpack_require__.e(/*! import() */ \"src_index_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./index.css */ \"./src/index.css\"))\r\n;\r\nconst h1=document.createElement('h1');\r\nh1.innerText=\"hello\",\r\nh1.classList.add('redColor');\r\ndocument.getElementById('root').appendChild(h1);\r\n\r\nconst pic=document.createElement('img');\r\npic.src=\"image\";\r\ndocument.getElementById('pics').appendChild(pic)\n\n//# sourceURL=webpack://web_assignment/./src/index.js?");
 
 /***/ })
 
